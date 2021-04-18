@@ -1,0 +1,3 @@
+discord-canary-electron-bin
+i3lock-fancy-git
+spotify

@@ -1,0 +1,9 @@
+#! /bin/bash
+convert /usr/share/pixmaps/wallpapers/hplockscreen.jpg -font Liberation-Sans \
+	-pointsize 26 -fill white -gravity center \
+	-annotate +0+160 "Type Password to Unlock" lock.png \
+	-gravity center -composite newimage.png
+
+#i3lock -i newimage.png
+i3lock-fancy -dt 'Enter Password to Unlock' -- scrot -z -o
+#light-locker-command -l

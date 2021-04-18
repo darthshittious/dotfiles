@@ -1,0 +1,13 @@
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+
+[user]
+	email = varun.j@learner.manipal.edu
+	name = darthshittious
+
+[code]
+	editor = nvim
+
+[init]
+	defaultBranch = main
+
